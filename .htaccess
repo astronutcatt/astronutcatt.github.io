@@ -1,0 +1,34 @@
+DirectoryIndex index.html
+
+<IfModule mod_alias.c>
+  Redirect 301 /about-us/ /about/
+  Redirect 301 /home/ /
+  Redirect 301 /resources/ /insights/
+  Redirect 301 /our-services/capital-investment-solutions/ /capabilities/private-capital-advisory/
+  Redirect 301 /the-future-of-retail-asias-ecosystems/ /insights/
+  RedirectMatch 301 ^/tag/ /insights/
+  RedirectMatch 301 ^/portfolio-category/ /insights/
+</IfModule>
+
+<IfModule mod_mime.c>
+  AddType image/webp .webp
+  AddType application/manifest+json .webmanifest
+</IfModule>
+
+<IfModule mod_headers.c>
+  <FilesMatch "\.(html)$">
+    Header set Cache-Control "public, max-age=0, must-revalidate"
+  </FilesMatch>
+
+  <FilesMatch "\.(css|js|mjs|png|jpg|jpeg|webp|gif|svg|ico|woff|woff2)$">
+    Header set Cache-Control "public, max-age=31536000, immutable"
+  </FilesMatch>
+
+  <FilesMatch "\.(xml|txt|webmanifest)$">
+    Header set Cache-Control "public, max-age=3600"
+  </FilesMatch>
+</IfModule>
+
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html text/plain text/css text/xml application/xml application/json application/javascript image/svg+xml
+</IfModule>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 60" fill="none">
+  <!-- Diamond mark -->
+  <g transform="translate(0, 4)">
+    <!-- Outer diamond -->
+    <polygon points="26,4 46,26 26,48 6,26" fill="none" stroke="#C9A84C" stroke-width="1.5"/>
+    <!-- Inner diamond filled -->
+    <polygon points="26,13 37,26 26,39 15,26" fill="#C9A84C" opacity="0.15"/>
+    <!-- Center cross -->
+    <line x1="26" y1="4" x2="26" y2="48" stroke="#C9A84C" stroke-width="1"/>
+    <line x1="6" y1="26" x2="46" y2="26" stroke="#C9A84C" stroke-width="1"/>
+    <!-- Center dot -->
+    <circle cx="26" cy="26" r="3" fill="#C9A84C"/>
+  </g>
+  <!-- Wordmark -->
+  <text x="58" y="32" font-family="Georgia, 'Times New Roman', serif" font-size="18" font-weight="700" letter-spacing="4" fill="#F0ECE3">SWISS</text>
+  <text x="58" y="50" font-family="Georgia, 'Times New Roman', serif" font-size="14" font-weight="400" letter-spacing="8" fill="#C9A84C">ACE</text>
+  <!-- Thin rule between words -->
+  <line x1="58" y1="36" x2="200" y2="36" stroke="#C9A84C" stroke-width="0.4" opacity="0.4"/>
+</svg>

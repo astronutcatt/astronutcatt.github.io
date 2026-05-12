@@ -1,0 +1,23 @@
+{
+  "name": "Swiss Ace",
+  "short_name": "Swiss Ace",
+  "description": "Global investment, finance and strategic advisory.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#f7f4ee",
+  "theme_color": "#a00000",
+  "icons": [
+    {
+      "src": "/brand/swiss-ace-icon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/apple-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ]
+}

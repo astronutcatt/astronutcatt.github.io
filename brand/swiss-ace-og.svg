@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" fill="none">
+  <rect width="1200" height="630" fill="#F4F3EF"/>
+  <path d="M0 0H1200V630H0V0Z" fill="#F4F3EF"/>
+  <g opacity="0.42">
+    <path d="M0 88H1200M0 220H1200M0 352H1200M0 484H1200" stroke="#D8D3C8"/>
+    <path d="M128 0V630M316 0V630M504 0V630M692 0V630M880 0V630M1068 0V630" stroke="#D8D3C8"/>
+  </g>
+  <g transform="translate(96 122)">
+    <polygon points="92,0 184,92 92,184 0,92" stroke="#0A2C52" stroke-width="6"/>
+    <polygon points="92,28 156,92 92,156 28,92" fill="#0A2C52" opacity="0.06" stroke="#C9A84C" stroke-width="3"/>
+    <path d="M92 0V184M0 92H184" stroke="#0A2C52" stroke-width="2.4" opacity="0.72"/>
+    <circle cx="92" cy="92" r="10" fill="#C9A84C"/>
+  </g>
+  <text x="330" y="210" font-family="Georgia, 'Times New Roman', serif" font-size="82" font-weight="600" letter-spacing="17" fill="#07111F">SWISS ACE</text>
+  <line x1="334" y1="244" x2="1046" y2="244" stroke="#C9A84C" stroke-width="2"/>
+  <text x="336" y="304" font-family="Arial, sans-serif" font-size="26" font-weight="700" letter-spacing="10" fill="#0A2C52">GLOBAL INVESTMENT AND ADVISORY</text>
+  <text x="100" y="452" font-family="Georgia, 'Times New Roman', serif" font-size="54" font-weight="400" fill="#07111F">Invest. Finance. Build. Globally.</text>
+  <text x="102" y="506" font-family="Arial, sans-serif" font-size="22" fill="#5F6873">Senior-led investment, finance and strategic advisory for private clients, institutions and companies.</text>
+</svg>

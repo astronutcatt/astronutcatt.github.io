@@ -1,0 +1,4 @@
+User-Agent: *
+Allow: /
+
+Sitemap: https://swiss-ace.com/sitemap.xml

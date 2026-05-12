@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 1200" fill="none">
+  <rect width="1440" height="1200" fill="#F4F3EF"/>
+  <style>
+    .label{font-family:Arial, sans-serif;font-size:18px;font-weight:700;letter-spacing:.16em;fill:#0A2C52}
+    .note{font-family:Arial, sans-serif;font-size:15px;fill:#69727D}
+    .word{font-family:Georgia, 'Times New Roman', serif;font-size:46px;font-weight:600;letter-spacing:.18em;fill:#07111F}
+    .sub{font-family:Arial, sans-serif;font-size:17px;font-weight:600;letter-spacing:.22em;fill:#0A2C52}
+    .gold{stroke:#C9A84C}
+    .navy{stroke:#0A2C52}
+    .fillGold{fill:#C9A84C}
+    .fillNavy{fill:#0A2C52}
+  </style>
+
+  <text x="80" y="72" class="label">SWISS ACE LOGO DIRECTION BOARD</text>
+  <text x="80" y="104" class="note">Five refined directions based on the existing red book/finance mark and the current luxury advisory website.</text>
+
+  <g transform="translate(80 170)">
+    <text x="0" y="0" class="label">01 HERITAGE COMPASS</text>
+    <text x="0" y="30" class="note">Best fit: keeps the current diamond equity, adds more precision and enterprise confidence.</text>
+    <g transform="translate(0 82)">
+      <polygon points="48,0 92,48 48,96 4,48" stroke="#0A2C52" stroke-width="3"/>
+      <polygon points="48,14 78,48 48,82 18,48" fill="#0A2C52" opacity=".06" stroke="#C9A84C" stroke-width="2"/>
+      <path d="M48 0v96M4 48h88" stroke="#0A2C52" stroke-width="1.5" opacity=".7"/>
+      <circle cx="48" cy="48" r="5" fill="#C9A84C"/>
+      <text x="126" y="42" class="word">SWISS ACE</text>
+      <line x1="128" y1="58" x2="470" y2="58" stroke="#C9A84C" stroke-width="1"/>
+      <text x="128" y="88" class="sub">GLOBAL INVESTMENT AND ADVISORY</text>
+    </g>
+  </g>
+
+  <g transform="translate(760 170)">
+    <text x="0" y="0" class="label">02 OPEN LEDGER</text>
+    <text x="0" y="30" class="note">Best fit: respectful evolution of the old book mark, but more premium and less literal.</text>
+    <g transform="translate(0 80)">
+      <path d="M18 84c70-14 112-10 170 18M188 102c58-28 106-34 176-18" stroke="#0A2C52" stroke-width="5" stroke-linecap="round"/>
+      <path d="M18 20v64M70 8v70M122 0v82" stroke="#0A2C52" stroke-width="7"/>
+      <path d="M240 0v82M292 8v70M344 20v64" stroke="#C9A84C" stroke-width="7"/>
+      <text x="0" y="162" class="word">SWISS ACE</text>
+      <text x="2" y="196" class="sub">FINANCE SERVICES</text>
+    </g>
+  </g>
+
+  <g transform="translate(80 495)">
+    <text x="0" y="0" class="label">03 MONOGRAM SEAL</text>
+    <text x="0" y="30" class="note">Best fit: strongest favicon and app icon. More exclusive, private-bank feeling.</text>
+    <g transform="translate(0 75)">
+      <rect x="4" y="4" width="104" height="104" stroke="#0A2C52" stroke-width="2"/>
+      <polygon points="56,14 98,56 56,98 14,56" stroke="#C9A84C" stroke-width="2"/>
+      <text x="31" y="70" font-family="Georgia, 'Times New Roman', serif" font-size="42" font-weight="600" fill="#0A2C52">SA</text>
+      <text x="140" y="52" class="word">SWISS ACE</text>
+      <text x="142" y="86" class="sub">PRIVATE CAPITAL ADVISORY</text>
+    </g>
+  </g>
+
+  <g transform="translate(760 495)">
+    <text x="0" y="0" class="label">04 GLOBAL AXIS</text>
+    <text x="0" y="30" class="note">Best fit: most international and enterprise-oriented. Good for Broadridge-level credibility.</text>
+    <g transform="translate(0 78)">
+      <circle cx="58" cy="58" r="52" stroke="#0A2C52" stroke-width="2"/>
+      <ellipse cx="58" cy="58" rx="20" ry="52" stroke="#0A2C52" stroke-width="1.5" opacity=".75"/>
+      <ellipse cx="58" cy="58" rx="52" ry="20" stroke="#0A2C52" stroke-width="1.5" opacity=".75"/>
+      <polygon points="58,27 89,58 58,89 27,58" stroke="#C9A84C" stroke-width="2" fill="#C9A84C" opacity=".08"/>
+      <circle cx="58" cy="58" r="5" fill="#C9A84C"/>
+      <text x="144" y="54" class="word">SWISS ACE</text>
+      <text x="146" y="88" class="sub">SINGAPORE SWITZERLAND GLOBAL</text>
+    </g>
+  </g>
+
+  <g transform="translate(80 820)">
+    <text x="0" y="0" class="label">05 PURE WORDMARK</text>
+    <text x="0" y="30" class="note">Best fit: quietest and most luxury. Works if the brand wants less symbol and more editorial restraint.</text>
+    <g transform="translate(0 88)">
+      <text x="0" y="48" font-family="Georgia, 'Times New Roman', serif" font-size="68" font-weight="500" letter-spacing=".24em" fill="#07111F">SWISS ACE</text>
+      <line x1="2" y1="72" x2="560" y2="72" stroke="#C9A84C" stroke-width="1"/>
+      <text x="3" y="112" class="sub">GLOBAL INVESTMENT AND ADVISORY</text>
+    </g>
+  </g>
+
+  <g transform="translate(760 820)">
+    <rect x="0" y="0" width="560" height="220" fill="#FFFFFF" stroke="#D8D3C8"/>
+    <text x="34" y="48" class="label">RECOMMENDATION</text>
+    <text x="34" y="86" class="note">Use direction 01 as the primary website mark.</text>
+    <text x="34" y="118" class="note">Keep direction 03 as the icon-only fallback for favicon, portal, and social avatars.</text>
+    <text x="34" y="150" class="note">Avoid carrying the old red book mark directly unless Swiss Ace wants a legacy sub-brand.</text>
+  </g>
+</svg>
